@@ -24,7 +24,8 @@ const exampleThree = [1,1,1,3,3,4,3,2,4,2];
 
 /**
  * Takes an array and returns true if there are duplicate integers
- * @param nums
+ * @param {number[]} nums
+ * @return {boolean}
  */
 const containsDuplicate = (nums: number[]): boolean => {
   const originalArrayLength = nums.length;
