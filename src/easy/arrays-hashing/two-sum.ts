@@ -61,12 +61,12 @@ function twoSum({
     }
   });
   const hashTable = Object.assign({}, ...indexNums);
-    for (let i = 0; nums.length > i; i++) {
-      const complement = target - nums[i];
-      if (i !== hashTable[complement] && nums[i] + complement === target && complement in hashTable) {
-        console.log([i, hashTable[complement]]);
-        return [i, hashTable[complement]];
-      }
+  for (let i = 0; nums.length > i; i++) {
+    const complement = target - nums[i];
+    if (i !== hashTable[complement] && nums[i] + complement === target && complement in hashTable) {
+      console.log([i, hashTable[complement]]);
+      return [i, hashTable[complement]];
+    }
   }
 }
 
@@ -78,7 +78,10 @@ const validateExamples = (...twoSumExamples: Array<ITwoSum>): void => {
 }
 
 export default function twoSumLog(): void {
-  console.log('Two Sum:')
+  console.log(
+    '\x1b[36m%s\x1b[0m',
+    'Two Sum:'
+  );
   return validateExamples(
     exampleOne,
     exampleTwo,
