@@ -30,6 +30,12 @@ const exampleTwo = {
   t: 'car'
 };
 
+/**
+ * Takes in two strings and returns true if they both contain the same characters in any order
+ * @param s
+ * @param t
+ * @return {boolean}
+ */
 const isAnagram = ({
   s,
   t

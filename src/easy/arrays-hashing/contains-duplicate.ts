@@ -42,7 +42,7 @@ const containsDuplicate = (nums: number[]): boolean => {
 const validateMultipleArrays = (...arrays: number[][]): void => {
   arrays.map((example: number[], index) => {
     console.log('Example:', index + 1);
-    containsDuplicate(example);
+    return containsDuplicate(example);
   });
 }
 
@@ -54,7 +54,7 @@ export default function containsDuplicateLog() {
     '\x1b[36m%s\x1b[0m',
     'Contains Duplicate:'
   );
-  validateMultipleArrays(
+  return validateMultipleArrays(
     exampleOne,
     exampleTwo,
     exampleThree,
