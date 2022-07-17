@@ -35,7 +35,7 @@ const containsDuplicate = (nums: number[]): boolean => {
 }
 
 /**
- * validate if the examples
+ * Takes in multiples examples and runs the solution
  * @param arrays Array of number arrays containing all the examples
  */
 const validateMultipleArrays = (...arrays: number[][]): void => {
@@ -45,6 +45,9 @@ const validateMultipleArrays = (...arrays: number[][]): void => {
   })
 }
 
+/**
+ * Log the example solutions
+ */
 export default function containsDuplicatesSolution() {
   console.log('Contains Duplicate:')
   validateMultipleArrays(
