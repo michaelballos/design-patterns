@@ -2,6 +2,9 @@
 
 This is a collection of my solutions to Leetcode design patterns.
 
+If you prefer <a href='https://docs.google.com/spreadsheets/d/12pi88gHX2WOWISVAgmhgguu_vsMfL0FIO4hf6hS9a0c/edit?usp=sharing' target='_blank'>here</a>
+is the corresponding spreadsheet I made containing the patterns used to solve each problem and my code snippets to the solutions.
+
 To run nodemon on watch mode, run the following command:
 
 ```bash
@@ -22,11 +25,8 @@ The project file structure is
 └── /src
       └── difficulty
                └── design pattern
-                          └── problem.ts
+                         └── problem.ts
       └── solutions-log.ts
 ```
 
 These problems are extracted from <a href='https://neetcode.io/' target='_blank'>NeetCode.io</a> which oraganizes Leetcode problems by design patterns and difficulty. It's recommended to solve all the problems in order by difficulty.
-
-<a href='https://docs.google.com/spreadsheets/d/12pi88gHX2WOWISVAgmhgguu_vsMfL0FIO4hf6hS9a0c/edit?usp=sharing' target='_blank'>Here</a>
- is the corresponding spreadsheet I made containing the patterns used to solve each problem and my code snippets to the solutions.
