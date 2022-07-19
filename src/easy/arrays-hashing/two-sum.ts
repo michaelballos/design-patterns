@@ -70,6 +70,10 @@ function twoSum({
   }
 }
 
+/**
+ * Logs and checks all examples
+ * @param twoSumExamples
+ */
 const validateExamples = (...twoSumExamples: Array<ITwoSum>): void => {
   twoSumExamples.map((example: ITwoSum, index: number) => {
     console.log('Example:', index + 1);

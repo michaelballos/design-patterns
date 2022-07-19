@@ -31,6 +31,11 @@ const examples = [
   ' '
 ];
 
+/**
+ * Takes a string, removes non alpha numerics, and returns true if it matches the reversed version
+ * @param s
+ * @return {boolean}
+ */
 function isPalindrome(s: string): boolean {
   const removeNonAlphanumerics = s.replace(/[^a-z\d]/gi, '').toLowerCase();
   const reversedString = removeNonAlphanumerics.split('').reverse().join('');
