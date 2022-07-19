@@ -45,7 +45,7 @@ const validateStrings = () => {
   })
 }
 
-export default function isPalindromeLog() {
+export default function validPalindromeLog() {
   console.log(
     '\x1b[36m%s\x1b[0m',
     'Is Palindrome:'
