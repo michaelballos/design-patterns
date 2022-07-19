@@ -1,6 +1,6 @@
 ### Design Patterns
 
-This is a collection of my solutions to Leetcode design patterns.
+This is a collection of my solutions to Leetcode design patterns. My goal is to not use any loops if possible and maintain best practices while keeping time complexity as low as I can.
 
 If you prefer <a href='https://docs.google.com/spreadsheets/d/12pi88gHX2WOWISVAgmhgguu_vsMfL0FIO4hf6hS9a0c/edit?usp=sharing' target='_blank'>here</a>
 is the corresponding spreadsheet I made containing the patterns used to solve each problem and my code snippets to the solutions.
